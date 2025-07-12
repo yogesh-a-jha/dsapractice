@@ -17,7 +17,7 @@ class Solution {
            suf.push_back(su);
        }
        
-       for(int i=1;i<n-1;i++){
+       for(int i=0;i<n;i++){
            if(pref[i]==suf[n-i-1]){
               return i;
            }
